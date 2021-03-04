@@ -1,0 +1,123 @@
+@import "main.css";
+form p {
+  color: #e3d8c8;
+  margin-bottom: 1rem;
+  font-size: 20px;
+
+}
+
+fieldset {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border: 3px solid #e3d8c8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset label {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.spam-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.spam-mail label {
+  margin-left: 1rem;
+}
+
+.color {
+  color: #cad6a6;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  font-size: 27px;
+}
+
+.top {
+  margin-top: 2rem;
+}
+
+.toptop {
+  margin-top: 3.5rem;
+}
+
+.up-btn {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-decoration: none;
+    color: #e3d8c8;
+}
+
+.submit {
+  height: 3rem;
+  background: #d4e093;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.submit:hover {
+  background: #92a52d;
+}
+
+.reset {
+  height: 3rem;
+  background: #f16c4d;
+  border-radius: 10px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-right: 3rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.reset:hover {
+  background: #d83f1b;
+}
+
+form textarea {
+  margin-left: 0.5rem;
+  height: 7rem;
+  width: 13rem;
+}
+
+.tog {
+  display: none;
+}
+
+label .attention {
+  font-size: 14px;
+  margin-left: 1.5rem;
+}
+
+form .red {
+  color: #530300;
+  border: 2px solid #bb0b04;
+  background: #d83f1b;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.agreeBut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+}
+
+.font {
+  font-size: 1rem;
+}

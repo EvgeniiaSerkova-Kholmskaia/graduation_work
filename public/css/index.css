@@ -1,0 +1,43 @@
+img {
+  width: 9rem;
+  height: auto;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header h1 {
+  color: #e3d8c8;
+}
+
+.travelTitle {
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+
+.registr-end {
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+header .registr-end a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #e3d8c8;
+  margin-left: 4rem;
+}
+
+header .registr-end a:hover {
+  border-bottom: 4px solid #d4e093;
+}
+
+.acc {
+  font-size: 20px;
+  color: #e3d8c8;
+}
